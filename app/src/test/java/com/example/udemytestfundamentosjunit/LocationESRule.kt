@@ -15,8 +15,6 @@ class LocationESRule : TestRule {
 
                 try {
                     base.evaluate()
-                } catch(e: Throwable) {
-                   println(e.cause)
                 } finally {
                     assertions = null
                 }

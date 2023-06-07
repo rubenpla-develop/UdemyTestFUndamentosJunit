@@ -1,7 +1,7 @@
 package com.example.udemytestfundamentosjunit
 
 class Assertions {
-    private val user = User("Ruben", 41)
+    private val userRuben = User("Ruben", 41)
     private var location = "US"
 
     fun setLocation(newLocation : String) {
@@ -13,7 +13,7 @@ class Assertions {
     }
 
     fun getName() : String {
-        return user.name
+        return userRuben.name
     }
 
     fun checkHuman(user: User) : Boolean {
